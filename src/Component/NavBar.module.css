@@ -1,0 +1,41 @@
+.navbar{
+    background-color:rgb(212, 158, 229);
+    font-size: 1em;
+    color: black;
+}
+
+.conteinertitle{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgb(212, 158, 229);
+}
+
+.title{
+    align-self: center;
+    color: black;
+}
+
+.conteinerlogo{
+    align-self: flex-start;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.menu li{
+    width: 25%;
+}
+
+.menu li a:hover{
+    background-color: rgb(204, 190, 70);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
